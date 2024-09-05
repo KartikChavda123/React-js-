@@ -5,7 +5,7 @@ function Pr2() {
   const [count, setCount] = useState(0)
   return (
     <div style={{ display: "flex", justifyContent: "center", alignItems: "center", flexDirection: "column", width: "100%", height: "600px" }}>
-      <p style={{color: "black"}}>PROJEACT-2  USEEFFACT</p>
+      <p style={{color: "black"}}>PROJECT-2 USESTATE</p>
       <h1 className='w1z' style={{ marginTop: "70px", color: "black", fontSize: "60px",}}>{count}</h1>
       <div className='kk'>
         <button class="btn"  onClick={() => setCount(count + 1)} style={{ height: "50px", width: "150px", color: "black"}}>add</button>
