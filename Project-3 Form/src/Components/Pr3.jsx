@@ -22,7 +22,7 @@ function Pr3() {
         <>
             <div className='b1'>
                 <form action="" className='b2' onSubmit={handleSubmit} autoComplete="off">
-                    <p className='d4'>Log-in</p>
+                    <p className='d4'>Login Form</p>
 
                     <label htmlFor="name" className='c5'>Name</label>
                     <input
