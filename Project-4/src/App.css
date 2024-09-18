@@ -1,0 +1,102 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* Container styling */
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f4f4f9;
+  padding: 20px;
+}
+
+/* Form styling */
+.seller-form {
+  background: white;
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+}
+
+/* Centered heading */
+.seller-form h1 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Form group styling */
+.form-group {
+  margin-bottom: 15px;
+}
+
+/* Label styling */
+.form-group label {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+/* Input and select styling */
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  background: #f9f9f9;
+  transition: border-color 0.3s ease;
+}
+
+/* Input focus styling */
+.form-group input:focus,
+.form-group select:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Error message styling */
+.error {
+  display: block;
+  font-size: 14px;
+  color: #e74c3c;
+  margin-top: 5px;
+}
+
+/* Button styling */
+.submit-btn {
+  padding: 10px 20px;
+  font-size: 18px;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+.submit-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Centering content */
+center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+  .seller-form {
+    padding: 20px;
+    width: 90%;
+  }
+}
