@@ -125,8 +125,8 @@ export default function SellerForm() {
                         </div>
 
                         <div className='form-group'>
-                            <label htmlFor='coverPrice'>Mobile Cover Price</label>
-                            <input type='number' placeholder='Enter Mobile Cover Price' />
+                            <label htmlFor='coverPrice'>MFG date </label>
+                            <input type='number' placeholder='Enter MFG date ' />
                         </div>
 
                         <div className='form-group'>
