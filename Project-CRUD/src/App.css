@@ -1,0 +1,106 @@
+/* General Container Styling */
+.container {
+  font-family: 'Poppins', sans-serif;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f7f9fc;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Title Styling */
+.title {
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family:  "Lobster";
+  font-size: 2rem;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Input Styling */
+.task-input {
+  width: 95%;
+  padding: 10px;
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  outline: none;
+}
+
+.task-input:focus {
+  border-color: #1e90ff;
+  background-color: #fff;
+}
+
+/* Button Styling */
+.btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  margin: 5px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-btn {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.add-btn:hover {
+  background-color: #218838;
+}
+
+.edit-btn {
+  background-color: #ffc107;
+  color: #fff;
+}
+
+.edit-btn:hover {
+  background-color: #e0a800;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.delete-btn:hover {
+  background-color: #c82333;
+}
+
+.complete-btn {
+  background-color: #17a2b8;
+  color: #fff;
+}
+
+.complete-btn:hover {
+  background-color: #138496;
+}
+
+/* Table Styling */
+.task-table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+.task-table th, .task-table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.task-table th {
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+.task-table tr:hover {
+  background-color: #f1f1f1;
+}
