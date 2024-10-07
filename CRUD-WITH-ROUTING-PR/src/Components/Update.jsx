@@ -22,7 +22,6 @@ export default function Update({ deta, setDeta }) {
       const updateddeta = deta.map((item) => item.id === editIndex ? { ...item, name, subject } : item)
 
       setDeta(updateddeta)
-      localStorage.setItem("deta1", JSON.stringify(updateddeta))
     }
     navigate("/")
   }
