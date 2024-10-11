@@ -4,7 +4,7 @@ import ComOne from './Contextapi/ComOne'
 function App() {
   return (
     <>
-        <ComOne/>
+        <ComOne/> 
     </>
   )
 }
