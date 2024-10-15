@@ -11,9 +11,21 @@ export const todo = createSlice({
         deleteData: (state , action)=>{
             let data = state.Students.filter((item)=> item.id != action.payload)
             state.Students = data
+        },
+        updateData:(state , action) => {
+            state.Students.map((e,i)=>{
+                if(e.id == action.payload.id)
+                {
+                    e.name = action.payload.name
+                    e.sub = action.payload.sub
+                }
+                else{
+                    e
+                }
+            })
         }
     }
 })
 
-export const {addData , deleteData} = todo.actions
+export const {addData , deleteData, updateData} = todo.actions
 export default todo.reducer

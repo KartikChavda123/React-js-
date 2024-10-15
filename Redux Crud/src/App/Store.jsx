@@ -1,10 +1,8 @@
 import { configureStore } from "@reduxjs/toolkit";
-import  todo  from "../feature/TodoSlice";
-
-
+import  todo  from "../Feture/Todoslice";
 
 export const store = configureStore({
     reducer : {
-        todokey : todo
+        todokey: todo
     }
 });
