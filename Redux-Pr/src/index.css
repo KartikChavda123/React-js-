@@ -1,0 +1,149 @@
+/* Styling for the overall container */
+.todo-container {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f9;
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: #333;
+}
+
+/* Header styling */
+h1 {
+  color: #2c3e50;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2.5em;
+}
+
+/* Form input styling */
+.form-group input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 1.1em;
+  background-color: #fff;
+}
+
+input:focus {
+  outline: none;
+  border-color: #2c3e50;
+  box-shadow: 0 0 10px rgba(44, 62, 80, 0.2);
+}
+
+/* Select styling */
+select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 1.1em;
+  background-color: #fff;
+}
+
+/* Radio button styling */
+.radio-group {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.radio-group label {
+  cursor: pointer;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.active-radio {
+  color: #e74c3c;
+}
+
+/* Button styling */
+button.submit-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button.submit-btn:hover {
+  background-color: #2980b9;
+}
+
+/* Task List Styling */
+.task-list {
+  margin-top: 20px;
+}
+
+.task-item {
+  background-color: #ecf0f1;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.task-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.task-details span {
+  margin: 5px 0;
+  color: #2c3e50;
+  font-size: 1.1em;
+}
+
+/* Task actions */
+.task-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+button.edit-btn {
+  background-color: #27ae60;
+  color: #fff;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button.edit-btn:hover {
+  background-color: #2ecc71;
+}
+
+button.delete-btn {
+  background-color: #e74c3c;
+  color: #fff;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button.delete-btn:hover {
+  background-color: #c0392b;
+}
+
+/* No data message */
+.no-data {
+  color: #e74c3c;
+  text-align: center;
+  font-size: 1.3em;
+}
