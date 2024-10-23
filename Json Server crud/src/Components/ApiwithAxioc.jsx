@@ -24,7 +24,8 @@ export default function ApiwithAxioc() {
         setData(data.filter(item => item.id !== id));
         console.log("Deleted ID:", id);
     }
-
+    
+    
     return (
         <div>
             <h1>ApiwithAxioc</h1>
