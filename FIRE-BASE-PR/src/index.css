@@ -1,0 +1,154 @@
+/* AuthStyles.css */
+
+/* Reset and Body Styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f7fafc, #e2e8f0);
+}
+
+/* Container */
+.signup-container {
+  background-color: #fff;
+  width: 100%;
+  max-width: 400px;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Title */
+.signup-title {
+  font-size: 28px;
+  color: #333;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Input Fields */
+.signup-input {
+  width: 100%;
+  padding: 12px;
+  margin-top: 12px;
+  font-size: 16px;
+  border: 1px solid #cbd5e0;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.signup-input:focus {
+  border-color: #4a90e2;
+}
+
+/* Submit Button */
+.signup-button {
+  width: 100%;
+  padding: 14px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #4a90e2;
+  border: none;
+  border-radius: 8px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.1s;
+}
+
+.signup-button:hover {
+  background-color: #357ab9;
+}
+
+.signup-button:active {
+  transform: scale(0.98);
+}
+
+/* Sign-In Link */
+.signin-link {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #4a90e2;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.signin-link:hover {
+  color: #357ab9;
+}
+
+
+
+
+
+
+/* ex file  */
+
+
+/* Container styling */
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  border-radius: 12px;
+  background-color: #f7fafc;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 50px auto;
+}
+
+/* Title styling */
+.dashboard-container p {
+  font-size: 25px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Table styling */
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 8px;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+}
+
+.user-table th,
+.user-table td {
+  padding: 16px;
+  text-align: left;
+  font-size: 15px;
+  border-radius: 0px;
+  font-family: 'Arial', sans-serif;
+}
+
+.user-table th {
+  background-color: #4a90e2;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 0px;
+}
+
+.user-table td {
+  background-color: #fff;
+  color: #333;
+  margin-top: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.user-table tr:last-child td {
+  border-bottom: none;
+  margin-top: 20px;
+}

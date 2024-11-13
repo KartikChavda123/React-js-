@@ -1,8 +1,8 @@
 import React from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import SignUp from './Firebase/Singup'
-import SignIn from './Firebase/Singin'
-import Dashboard from './Firebase/Dashbord'
+import SignUp from './Components/Signup'
+import Dashboard from './Components/Dashboard'
+import SignIn from './Components/Singin'
 
 export default function App() {
   return (
@@ -10,8 +10,8 @@ export default function App() {
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<SignUp/>}></Route>
-          <Route path='/signin' element={<SignIn/>}></Route>
           <Route path='/dashboard' element={<Dashboard/>}></Route>
+          <Route path='/signin' element={<SignIn/>}></Route>
         </Routes>
       </BrowserRouter>
     </div>

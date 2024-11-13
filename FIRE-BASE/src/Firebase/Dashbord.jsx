@@ -6,4 +6,4 @@ export default function Dashboard() {
       <h1 className='dashboard-title'>Welcome to my website</h1>
     </div>
   )
-}
+} 

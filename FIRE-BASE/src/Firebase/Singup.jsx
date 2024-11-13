@@ -13,20 +13,20 @@ export default function SignUp() {
     const handleSignUp = async () => {
         let user = await createUserWithEmailAndPassword(auth, email, password)
         console.log(user);
-        
-        if(user){
+
+        if (user) {
             navigate("/signin");
         }
-        else{
+        else {
             alert("Enter email, password")
         }
     }
 
     return (
         <div className='signup-container'>
-            <input type="text" placeholder='Enter email' className='signup-input' onChange={(e) => setEmail (e.target.value)} />
-            <input type="text" placeholder='Enter password' className='signup-input' onChange={((e) => setPassword (e.target.value))} />
-            
+            <input type="text" placeholder='Enter email' className='signup-input' onChange={(e) => setEmail(e.target.value)} />
+            <input type="text" placeholder='Enter password' className='signup-input' onChange={((e) => setPassword(e.target.value))} />
+
             <button className='signup-button' onClick={handleSignUp}>Add</button>
 
             <Link to="/signin" className='signup-link'>Already have an account? Sign In ?</Link>
