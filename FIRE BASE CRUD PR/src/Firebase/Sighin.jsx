@@ -35,25 +35,25 @@ export default function Signin() {
         }
     }
     return (
-        <div className='s1_main2'>
-            <h1 className='heading1' data-aos="fade-left">Sign in Form</h1>
+        <div className='signup-container'>
+            <h1 className='heading' data-aos="fade-left">Sign in Form</h1>
 
             <div className="btns2">
-                <button className='btn11'>
+                <button className='nav-btn'>
                     <Link className='link' to={"/"}>Sign Up</Link>
                 </button>
-                <button className='btn12'>
+                <button className='nav-btn' style={{marginLeft: "20px"}}>
                     <Link className='link' to={"/signin"}>Sign In</Link>
                 </button>
             </div>
             <br />
-            <input className='inp2' value={email} type="text" placeholder='Enter email' onChange={(e) => serEmail(e.target.value)} />
+            <input className='form-input' value={email} type="text" placeholder='Enter email' onChange={(e) => serEmail(e.target.value)} />
             <p className='errmsg'>{emailerr}</p>
             <br />
-            <input className='inp2' value={pass} type="text" placeholder='Enter pass' onChange={(e) => serPass(e.target.value)} />
+            <input className='form-input' value={pass} type="text" placeholder='Enter pass' onChange={(e) => serPass(e.target.value)} />
             <p className='errmsg'>{passerr}</p>
             <br />
-            <button className='btn21' onClick={handleclick}>Sign in</button>
+            <button className='submit-btn' onClick={handleclick}>Sign in</button>
             <br />
         </div>
     )
