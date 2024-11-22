@@ -1,4 +1,3 @@
-
 import { signInWithPopup } from "firebase/auth";
 import React from "react";
 import { auth, owner } from "../../FirebaseConfig";
@@ -23,7 +22,8 @@ export default function Login() {
     return (
         <div className="login-container">
             <h1>Login</h1>
-            <input type="text" placeholder="ENTER THE EMAIL" />
+            <input type="text" placeholder="ENTER THE NAME" />
+            <input type="password" placeholder="ENTER THE EMAIL" />
             <input type="password" placeholder="ENTER THE PASSWORD" />
             <button onClick={handellogin}>Sign in with Google</button>
         </div>
