@@ -10,7 +10,7 @@ export default function ReduxThunk() {
   }, [dispatch]);
 
   const record = useSelector((state) => state.apiKey);
-console.log(record);
+  console.log(record);
 
   return (
     <div>
