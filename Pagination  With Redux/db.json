@@ -1,0 +1,76 @@
+{
+  "data": [
+    {
+      "id": "1",
+      "image": "./i phone 1.jpg",
+      "title": "Apple iPhone 15 (Black, 128GB)",
+      "category": "electronics",
+      "price": "₹60,999",
+      "discount": "12%",
+      "discountPrice": "₹69,900"
+    },
+    {
+      "id": "1",
+      "image": "./i phone 2.jpg",
+      "title": "Apple iPhone 15 (Black, 128GB)",
+      "category": "electronics",
+      "price": "₹60,999",
+      "discount": "12%",
+      "discountPrice": "₹69,900"
+    },
+    {
+      "id": "1",
+      "image": "./i phone 5.jpg",
+      "title": "Apple iPhone 15 (Black, 128GB)",
+      "category": "electronics",
+      "price": "₹60,999",
+      "discount": "12%",
+      "discountPrice": "₹69,900"
+    },
+    {
+      "id": "1",
+      "image": "./i phone 6.jpg",
+      "title": "Apple iPhone 15 (Black, 128GB)",
+      "category": "electronics",
+      "price": "₹60,999",
+      "discount": "12%",
+      "discountPrice": "₹69,900"
+    },
+    {
+      "id": "1",
+      "image": "./i phone 7.jpg",
+      "title": "Apple iPhone 15 (Black, 128GB)",
+      "category": "electronics",
+      "price": "₹60,999",
+      "discount": "12%",
+      "discountPrice": "₹69,900"
+    },
+    {
+      "id": "1",
+      "image": "./i phone 7.jpg",
+      "title": "Apple iPhone 15 (Black, 128GB)",
+      "category": "electronics",
+      "price": "₹60,999",
+      "discount": "12%",
+      "discountPrice": "₹69,900"
+    },
+    {
+      "id": "1",
+      "image": "./i phone 7.jpg",
+      "title": "Apple iPhone 15 (Black, 128GB)",
+      "category": "electronics",
+      "price": "₹60,999",
+      "discount": "12%",
+      "discountPrice": "₹69,900"
+    },
+    {
+      "id": "1",
+      "image": "./i phone 7.jpg",
+      "title": "Apple iPhone 15 (Black, 128GB)",
+      "category": "electronics",
+      "price": "₹60,999",
+      "discount": "12%",
+      "discountPrice": "₹69,900"
+    }
+  ]
+}

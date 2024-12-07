@@ -1,0 +1,351 @@
+{
+  "data": [
+    {
+      "id": "1",
+      "image": "./i phone 1.jpg",
+      "title": "Apple iPhone 15",
+      "category": "electronics",
+      "price": "₹60,999",
+      "ram": "128 GB",
+      "color": "Black"
+    },
+    {
+      "id": "2",
+      "image": "./i phone 2.jpg",
+      "title": "Apple iPhone 15 (Black, 128GB)",
+      "category": "electronics",
+      "price": "₹60,999",
+      "ram": "128 GB",
+      "color": "Black"
+    },
+    {
+      "id": "3",
+      "image": "./i phone 5.jpg",
+      "title": "Apple iPhone 15 (Black, 128GB)",
+      "category": "electronics",
+      "price": "₹60,999",
+      "ram": "128 GB",
+      "color": "Black"
+    },
+    {
+      "id": "4",
+      "image": "./i phone 6.jpg",
+      "title": "Apple iPhone 15 (Black, 128GB)",
+      "category": "electronics",
+      "price": "₹60,999",
+      "ram": "128 GB",
+      "color": "Black"
+    },
+    {
+      "id": "5",
+      "image": "./i phone 7.jpg",
+      "title": "Apple iPhone 15 (Black, 128GB)",
+      "category": "electronics",
+      "price": "₹60,999",
+      "ram": "128 GB",
+      "color": "Black"
+    },
+    {
+      "id": "6",
+      "image": "./i phone 7.jpg",
+      "title": "Apple iPhone 15 (Black, 128GB)",
+      "category": "electronics",
+      "price": "₹60,999",
+      "ram": "128 GB",
+      "color": "Black"
+    },
+    {
+      "id": "7",
+      "image": "./i phone 7.jpg",
+      "title": "Apple iPhone 15 (Black, 128GB)",
+      "category": "electronics",
+      "price": "₹60,999",
+      "ram": "128 GB",
+      "color": "Black"
+    },
+    {
+      "id": "8",
+      "image": "./i phone 7.jpg",
+      "title": "Apple iPhone 15 (Black, 128GB)",
+      "category": "electronics",
+      "price": "₹60,999",
+      "ram": "128 GB",
+      "color": "Black"
+    },
+    {
+      "id": "9",
+      "image": "./i phone 7.jpg",
+      "title": "Apple iPhone 15 (Black, 128GB)",
+      "category": "electronics",
+      "price": "₹60,999",
+      "ram": "128 GB",
+      "color": "Black"
+    },
+    {
+      "id": "10",
+      "image": "./i phone 7.jpg",
+      "title": "Apple iPhone 15 (Black, 128GB)",
+      "category": "electronics",
+      "price": "₹60,999",
+      "ram": "128 GB",
+      "color": "Black"
+    },
+    {
+      "id": "11",
+      "image": "./shoes1.jpg",
+      "title": "Mens Shoes",
+      "category": "MensShoes",
+      "price": "₹1000",
+      "size": "8",
+      "color": "Black"
+    },
+    {
+      "id": "12",
+      "image": "./shoes2.jpg",
+      "title": "skechers shoes",
+      "category": "MensShoes",
+      "price": "₹6000",
+      "size": "8",
+      "color": "Black"
+    },
+    {
+      "id": "13",
+      "image": "./shoes3.jpg",
+      "title": "Mens Brown Shoes",
+      "category": "MensShoes",
+      "price": "₹2000",
+      "size": "8",
+      "color": "Black"
+    },
+    {
+      "id": "14",
+      "image": "./shoes4.jpg",
+      "title": "Reboack Shoes",
+      "category": "MensShoes",
+      "price": "₹4000",
+      "size": "8",
+      "color": "Black"
+    },
+    {
+      "id": "15",
+      "image": "./shoes5.jpg",
+      "title": "Adidas Mens Shoes",
+      "category": "MensShoes",
+      "price": "₹15000",
+      "size": "8",
+      "color": "Black"
+    },
+    {
+      "id": "16",
+      "image": "./shoes6.jpg",
+      "title": "Mens Black Shoes",
+      "category": "MensShoes",
+      "price": "₹2000",
+      "size": "8",
+      "color": "Black"
+    },
+    {
+      "id": "17",
+      "image": "./shoes7.jpg",
+      "title": "Nike Mens Shoes",
+      "category": "MensShoes",
+      "price": "₹50000",
+      "size": "8",
+      "color": "Black"
+    },
+    {
+      "id": "18",
+      "image": "./shoes8.jpg",
+      "title": "Mens Shoes",
+      "category": "MensShoes",
+      "price": "₹2000",
+      "size": "8",
+      "color": "Black"
+    },
+    {
+      "id": "19",
+      "image": "./shoes9.jpg",
+      "title": "Adidas White Shoes",
+      "category": "MensShoes",
+      "price": "₹20000",
+      "size": "8",
+      "color": "Black"
+    },
+    {
+      "id": "20",
+      "image": "./shoes10.jpg",
+      "title": "Mens Black Shoes",
+      "category": "MensShoes",
+      "price": "₹10000",
+      "size": "8",
+      "color": "Black"
+    },
+    {
+      "id": "21",
+      "image": "./w1.jpg",
+      "title": "Mens Simple Watch",
+      "category": "Watch",
+      "price": "₹2000",
+      "display": "Simple Watch"
+    },
+    {
+      "id": "22",
+      "image": "./w2.jpg",
+      "title": "Mens Bin Bood Watch",
+      "category": "Watch",
+      "price": "₹3000",
+      "display": "Simple Watch"
+    },
+    {
+      "id": "23",
+      "image": "./w3.jpg",
+      "title": "FOSSIL Mens Watch",
+      "category": "Watch",
+      "price": "₹7000",
+      "display": "Simple Watch"
+    },
+    {
+      "id": "24",
+      "image": "./w4.jpg",
+      "title": "PABLO RAEZ Mens Watch",
+      "category": "Watch",
+      "price": "₹5000",
+      "display": "Simple Watch"
+    },
+    {
+      "id": "25",
+      "image": "./w5.jpg",
+      "title": "BLANCPAIN Mens Watch",
+      "category": "Watch",
+      "price": "₹2000",
+      "display": "Simple Watch"
+    },
+    {
+      "id": "26",
+      "image": "./w6.jpg",
+      "title": "CRRDU Mens Watch",
+      "category": "Watch",
+      "price": "₹4000",
+      "display": "Simple Watch"
+    },
+    {
+      "id": "27",
+      "image": "./w7.jpg",
+      "title": "Apple Series 8",
+      "category": "Watch",
+      "price": "₹50000",
+      "size": "44 mm or 40 mm aluminium case",
+      "display": "Retina display Up to 1,000 nits"
+    },
+    {
+      "id": "28",
+      "image": "./w8.jpg",
+      "title": "Apple Series 8 Pro",
+      "category": "Watch",
+      "price": "₹70000",
+      "size": "44 mm",
+      "display": "1,000 nits Amoled display"
+    },
+    {
+      "id": "29",
+      "image": "./w9.jpg",
+      "title": "Noise Smart Watch",
+      "category": "Watch",
+      "price": "₹2500",
+      "size": "40 mm",
+      "display": "700 nits Amoled display"
+    },
+    {
+      "id": "30",
+      "image": "./w10.jpg",
+      "title": "Realme Smart Watch",
+      "category": "Watch",
+      "price": "₹3000",
+      "size": "38 mm",
+      "display": "800 nits Amoled display"
+    },
+
+
+
+    {
+      "id": "31",
+      "image": "./o1.jpg",
+      "title": "Mens Shirt",
+      "category": "men's clothing",
+      "price": "1500",
+      "size": "xl,xxl"
+    },
+    {
+      "id": "32",
+      "image": "./o11.jpg",
+      "title": "Zara Black t'shirt",
+      "category": "men's clothing",
+      "price": "1500",
+      "size": "xl,xxl"
+    },
+    {
+      "id": "33",
+      "image": "./o3.jpg",
+      "title": "Men's Shirt",
+      "category": "men's clothing",
+      "price": "1500",
+      "size": "xl,xxl"
+    },
+    {
+      "id": "34",
+      "image": "./o4.jpg",
+      "title": "Men's Huddy",
+      "category": "men's clothing",
+      "price": "1500",
+      "size": "xl,xxl"
+    },
+    {
+      "id": "35",
+      "image": "./o5.jpg",
+      "title": "Men's White t shirt",
+      "category": "men's clothing",
+      "price": "1500",
+      "size": "xl,xxl"
+    },
+    {
+      "id": "36",
+      "image": "./o6.jpg",
+      "title": "Men's Formal Pents",
+      "category": "men's clothing",
+      "price": "1500",
+      "size": "xl,xxl"
+    },
+    {
+      "id": "37",
+      "image": "./o7.jpg",
+      "title": "Mens over size pents",
+      "category": "men's clothing",
+      "price": "1500",
+      "size": "xl,xxl"
+    },
+    {
+      "id": "38",
+      "image": "./o8.jpg",
+      "title": "Mens paggy pents",
+      "category": "men's clothing",
+      "price": "1500",
+      "size": "xl,xxl"
+    },
+    {
+      "id": "39",
+      "image": "./o9.jpg",
+      "title": "Mens cargo pents",
+      "category": "men's clothing",
+      "price": "1500",
+      "size": "xl,xxl"
+    },
+    {
+      "id": "40",
+      "image": "./o10.jpg",
+      "title": "Men's Formal Pents",
+      "category": "men's clothing",
+      "price": "1500",
+      "size": "xl,xxl"
+    }
+  ]
+}
